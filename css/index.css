@@ -18,7 +18,7 @@ h2 {
     line-height: 1;         /*行の高さ(単位不要)*/
     background: repeating-linear-gradient(-45deg,#ddd,#ddd 2px,#fff 0,#fff 12px);
 }
-h2:first-letter {            /*1文字目だけ*/
+h2::first-letter {            /*1文字目だけ*/
     color:deeppink;
     font-size: 130%;        /*1.3倍*/
     font-weight: bold;      /*太字*/
